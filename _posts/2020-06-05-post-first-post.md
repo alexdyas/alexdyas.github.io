@@ -7,4 +7,4 @@ tags:
   - Jekyll
 ---
 
-First post, after much faff. Can't get the github pages instructions to work, all sorts of issues. So went with https://github.com/mmistakes/mm-github-pages-starter which is working well.
+First post, after much faff. Can't get the github pages instructions to work, all sorts of issues. So went with [mmistakes' mm-github-pages-starter](https://github.com/mmistakes/mm-github-pages-starter) which is working well.
