@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-being the inane shouts into the ether (net) of a deranged nutter. mainly technical, few caps.
+being the inane shouts into the ether (net) of a deranged nutter. mainly technical, few caps
 
 # colophon
 
