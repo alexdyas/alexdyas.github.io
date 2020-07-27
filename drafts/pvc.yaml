@@ -1,0 +1,17 @@
+---
+# https://docs.cloud.oracle.com/iaas/Content/ContEng/Tasks/contengcreatingpersistentvolumeclaim.htm
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: jenkins-master-pvc
+  namespace: jenkins
+spec:
+  storageClassName: "oci"
+  selector:
+    matchLabels:
+      failure-domain.beta.kubernetes.io/zone: "EU-FRANKFURT-1-AD-2"
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 50Gi
