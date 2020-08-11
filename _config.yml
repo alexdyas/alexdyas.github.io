@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Alex Dyas"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "my awesome biography constrained to a sentence or two goes here"
+  bio    : "Dyas Ex Machina"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
