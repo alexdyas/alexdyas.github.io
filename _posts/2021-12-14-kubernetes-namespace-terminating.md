@@ -18,4 +18,4 @@ kubectl get namespace yournamespace -o json | jq 'del(.spec.finalizers[] | selec
 
 Replace `yournamespace` for the namespace you want to delete (appears twice in the line).
 
-Or wrap it in a shell function, I'll leave that as an exercise for you.
+Or wrap it in a shell function, I'll leave that as an exercise for you, dear reader.
