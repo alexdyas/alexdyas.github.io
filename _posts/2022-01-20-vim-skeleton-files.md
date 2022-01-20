@@ -20,3 +20,5 @@ au BufNewFile deployment.yaml 0r ~/.skeletons/deployment.yaml
 This relies on the skeleton file already being present, create that the way you want.
 
 Once this is in place, just `vim deployment.yaml` in the directory where you are working. If the file doesn't already exist vim will open with the skeleton file already in the buffer. All you have to do is start editing, and save.
+
+To Do - make it more generalised so I don't have to create multiple entires in `.vimrc`.
