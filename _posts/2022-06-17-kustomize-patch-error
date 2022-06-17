@@ -1,6 +1,6 @@
 ---
-title: "Kustomize patch error - "
-date: 2022-06-17T09:00:00 -0000
+title: "Kustomize patch error - 'unable to parse SM or JSON patch from'"
+date: 2022-06-17
 categories:
   - technical
 tags:
