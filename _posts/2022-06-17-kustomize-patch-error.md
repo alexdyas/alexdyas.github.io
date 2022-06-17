@@ -58,4 +58,4 @@ spec:
               cpu: 400m
               memory: 1250Mi
 ```
-Reference - [https://stackoverflow.com/questions/72492756/kubernetes-patch-multiple-resources-not-working]
+Reference - [https://stackoverflow.com/questions/72492756/kubernetes-patch-multiple-resources-not-working](https://stackoverflow.com/questions/72492756/kubernetes-patch-multiple-resources-not-working)
