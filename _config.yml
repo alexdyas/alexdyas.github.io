@@ -70,13 +70,13 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alexdyas"
     - label: "Mastodon"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-fw fa-mastodon"
       url: "https://mas.to/@alexanderdyas"
 
 footer:
   links:
     - label: "Mastodon"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-fw fa-mastodon"
       url: "https://mas.to/@alexanderdyas"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
