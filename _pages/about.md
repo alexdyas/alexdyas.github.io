@@ -9,4 +9,4 @@ Other than that, I'm British, I live in France, work in Switzerland. I like maki
 
 Do no harm, take no shit.
 
-Follow me on <a rel="me" href="https://mas.to/@alexanderdyas">Mastodon</a>.
+This is <a rel="me" href="https://mas.to/@alexanderdyas">Mastodon</a> verification slug.
