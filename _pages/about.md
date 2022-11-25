@@ -3,8 +3,10 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+This blog will be mainly technical posts about stuff I'm working or tinkering on, Kubernetes, amateur electronics, Python, Linux etc.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Other than that, I'm British, I live in France, work in Switzerland. I like making stuff, woodworking, reading, playing guitar, snowboarding, cooking, music, films. I try to meditate when I can.
 
-<a rel="me" href="https://mas.to/@alexanderdyas">Mastodon</a>
+Do no harm, take no shit.
+
+Follow me on <a rel="me" href="https://mas.to/@alexanderdyas">Mastodon</a>.
