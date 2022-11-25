@@ -19,7 +19,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: alexdyas
 github_username: alexdyas
 minimal_mistakes_skin: dark
 search: true
@@ -67,18 +66,18 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.alexdyas.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/alexdyas"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alexdyas"
+    - label: "Mastodon"
+      icon: "fas fa-fw fa-link"
+      url: "https://mas.to/@alexanderdyas"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/alexdyas"
+    - label: "Mastodon"
+      icon: "fas fa-fw fa-link"
+      url: "https://mas.to/@alexanderdyas"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alexdyas"
