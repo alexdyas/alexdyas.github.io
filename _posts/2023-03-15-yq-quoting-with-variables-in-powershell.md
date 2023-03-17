@@ -1,5 +1,5 @@
 ---
-title: "yq Quoting with variables in Powershell"
+title: "yq quoting with variables in Powershell"
 date: 2023-03-15T13:25:38-04:00
 categories:
   - technical
