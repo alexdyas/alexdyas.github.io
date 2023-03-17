@@ -8,9 +8,16 @@ tags:
   - yq
   - powershell
 ---
-This took me far to long to figure out, so I thought I'd post it here in case someone else needs to keep their hair.
-Using the `yq` tool under PowerShell, the quoting gets complex when adding variables to the query. This formula seems to work:
+This took me far to long to figure out, so I thought I'd post it here in case someone else wishes to keep all their hair.
+Using the `yq` tool under PowerShell, the quoting gets complex when adding variables to the query. Either of these arcane formulas seem to work:
 ```
+# Backslash + double quotes + double quotes
 $somevariable="foo"
 yq -M ".root[] | select(.name == \""$somevariable\"").bah[]" .\document.yaml
 ```
+```
+# Backslash + tick + double quotes
+$somevariable="foo"
+yq -M ".root[] | select(.name == \`"$somevariable\`").bah[]" .\document.yaml
+```
+Thanks to P for the second solution.
