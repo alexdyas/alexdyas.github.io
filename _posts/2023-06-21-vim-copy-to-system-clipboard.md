@@ -1,5 +1,5 @@
 ---
-title: "Copy to system clipboard from Vim""
+title: "Copy to system clipboard from Vim"
 date: 2023-06-21T09:13:38-04:00
 categories:
   - technical
