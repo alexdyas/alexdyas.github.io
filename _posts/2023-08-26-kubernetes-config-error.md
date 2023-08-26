@@ -12,4 +12,4 @@ kubernetes.config.config_exception.ConfigException: Invalid kube-config file. Ex
 ```
 Problem is that there are multiple contexts defined in the kube config file, but the `current-context` key is not set.
 
-One solution is to set the key to something arbitrary.
+One solution is to set the key to an arbitrary context.
