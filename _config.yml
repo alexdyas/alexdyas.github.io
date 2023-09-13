@@ -69,13 +69,13 @@ author:
       url: "https://github.com/alexdyas"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
-      url: "https://mas.to/@alexanderdyas"
+      url: "https://mindly.social/@alexanderdyas"
 
 footer:
   links:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
-      url: "https://mas.to/@alexanderdyas"
+      url: "https://mindly.social/@alexanderdyas"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alexdyas"
