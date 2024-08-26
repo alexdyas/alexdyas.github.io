@@ -24,5 +24,6 @@ for ldap in ldap_urls:
   foo,bah = ldap
 ...
 ```
-Apparently this clashed with something in the same namespace as the LDAP package, therefore the error.
+Apparently this clashed with the main LDAP object in the same namespace, therefore the error.
+
 Moral - be careful with how you're declaring your object names and the namesapaces.
