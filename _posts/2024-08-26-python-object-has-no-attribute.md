@@ -27,3 +27,16 @@ for ldap in ldap_urls:
 Apparently this clashed with the main LDAP object called `ldap` in the same namespace, therefore the error.
 
 Moral - be careful with how you're declaring your object names and the namesapaces.
+
+Later -
+
+Of course, this explains it:
+
+```
+>>> import ldap
+>>> print(type(ldap))
+<class 'module'>
+>>>
+```
+
+I need to understand better how modules are objects in Python...
