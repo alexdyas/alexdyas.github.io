@@ -1,5 +1,5 @@
 ---
-title: "JQ - Create .dockerconigjson file"
+title: "JQ - Create .dockerconfigjson file"
 date: 2024-11-30T11:42:38-04:00
 categories:
   - technical
