@@ -11,6 +11,7 @@ tags:
   - linux
 ---
 Use the `jq` tool to create a `.dockerconfigjson` file from existing details, including inline `base64` encoding.
+Linux, bash style :
 ```
 export REGISTRY="theregistry"
 export EMAILADDRESS=eddie@example.com
@@ -21,4 +22,18 @@ jq --null-input --arg registry "$REGISTRY"                                      
                 --arg encodedcredentials $(echo "$USER:$PASSWORD" |  base64)                       \
                 '{"auths": { ($registry): {"email": $emailaddress, "auth": $encodedcredentials}}}'
 ```
-This is formatted for a Linux type command line, but it wouldn't take much to convert it to PowerShell if you're so inclined.
+Powershell for those of us who are forced to (minus the email address):
+```
+$REGISTRY="theregistry"
+$USER="eddie"
+$PASSWORD="mysup3rp4ssw0rd"
+jq --null-input --arg registry "$REGISTRY" `
+                --arg encodedcredentials $([Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes("${USER}:${PASSWORD}"))) `
+                '{"auths": { ($registry): {"auth": $encodedcredentials}}}' > .dockerconfigjson
+```
+Beware that the file produced in Powershell is subject to Windows' bizarre encoding rules (UTF16, BOM etc). Here is a general use snippet that can sanitise the file for use elsewhere:
+```
+$MyRawString = Get-Content -Raw $pathtofile
+$Utf8NoBomEncoding = New-Object System.Text.UTF8Encoding $False
+[System.IO.File]::WriteAllLines($pathtofile, $MyRawString, $Utf8NoBomEncoding)
+ ```
