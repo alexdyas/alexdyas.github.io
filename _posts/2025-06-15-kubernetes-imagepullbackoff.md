@@ -6,7 +6,7 @@ categories:
 tags:
   - kubernetes
 ---
-I stumbled across a new to me reason for the irritating imagePullBackoff error in Kubernetes. Amongst the many well documents reasons this can happen, bad credentials, wrong path to container image etc, you should also check for wrong secret type.
+I stumbled across a new to me reason for the irritating imagePullBackoff error in Kubernetes. Amongst the many well documented reasons this can happen, bad credentials, wrong path to container image etc, you should also check for wrong secret type.
 
 A properly constructed secret for container registry authentication looks like this:
 ```
