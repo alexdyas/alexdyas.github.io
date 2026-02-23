@@ -1,0 +1,21 @@
+---
+title: "Force Yarn to ignore SSL ceritifcate issues"
+date: 2026-02-07T14:06:38-04:00
+categories:
+  - technical
+tags:
+  - c64
+  - retrogaming
+---
+Adding a C64 `.prg` file to a C64 `.d64` disk image so it will be readable in an emulator:
+
+- Get the Vice C64 emulator - https://vice-emu.sourceforge.io
+- Unpack the archive
+- Locate the `bin/c1541` executable, this is a C64 disk image maintenance utility
+- Use the following command, adjusted for your own case:
+```
+./c1541 -format disk1,id d64 "somefilename.d64" -attach disk1.d64 -write somefilename.prg "Some File Name"
+```
+
+Useful link:
+- https://vice-emu.sourceforge.io/vice_14.html
